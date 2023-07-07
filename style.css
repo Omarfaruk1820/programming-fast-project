@@ -5,3 +5,146 @@
     box-sizing:border-box;
     
 }
+.menu-bar{
+    background-color:rgb(32,32,32);
+    padding:20px;
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:120px
+
+}
+
+.logo{
+    width:100px;
+    
+}
+.menus{
+    display:flex;
+    color:white;
+
+}
+.menus li{
+    margin-right:10px;
+    padding-right:10px;
+    font-size:20px; 
+    cursor:pointer;
+    
+}
+.menus li:hover{
+    color:blue;
+}
+.banner-img{
+    width:200px;
+    width:200px;
+}
+.banner-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:100vh;
+    border:2px solid gray;
+    background-image: url(background.jpg);
+    color:white;
+    color:black;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+    }
+.banner-text{
+    text-align:center;
+}
+.banner-image, img{
+    align-items:center;
+}
+.title{
+    font-size:50px;
+    font-weight:bold;
+}
+.title2{
+    font-size:20px;
+    font-weight:normal;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding:15px;
+    border-radius:20px;
+    background-color:black;
+    color:white;
+    font-size:15px;
+    border:none;
+    cursor:pointer;
+}
+.btn:hover{
+    color:green;
+}
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction:row-reverse;
+}
+.text{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    margin-top:10px;
+    letter-spacing:uppercase;
+}
+.about-info .btn{
+    margin:15px;
+}
+.our{
+    text-align:center;
+    border-top:2px solid red;
+    margin-top:15px;
+}
+.about-service{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.ball{
+    width:50px;
+    
+}
+.triangle{
+    width:50px;
+    height:30px;
+}
+.diamond{
+    width:50px;
+}
+.btn{
+    font-size:20px;
+    color:white;
+    background-color:black;
+    border:none;
+    border-radius:1px solid red;
+    
+}
+.box{
+    width:400px;
+    height:250px;
+    margin-top:20px;
+    box-shadow:4px 4px 15px gray;
+    background-color:black;
+    color:white;
+    text-align:center;
+    
+    
+}
+.box, .ball{
+    justify-content:center;
+}
+.box h1{
+    text-align:center;
+}
+.box p{
+    text-align:center;
+}
+.btn{
+    align-items:center;
+}
